@@ -1,0 +1,57 @@
+﻿<section class="hero-area">
+    <Carousel Class="hero-slides" @bind-SelectedSlide="@SelectedSlide">
+        <CarouselSlide Name="1">
+            <div class="single-hero-slide bg-img" style="background-image: url(img/bg-img/bg1.jpg);">
+                <Container Class="h-100">
+                    <Row Class="h-100 align-items-center">
+                        <Column ColumnSize="ColumnSize.Is6.OnMobile.Is7.OnTablet.Is9.OnDesktop.Is12">
+                            <Animate Animation="Animations.FadeUp" Delay="@TimeSpan.FromSeconds(0.1)">
+                                <div class="hero-slides-content">
+                                    <Animate Animation="Animations.FadeUp" Delay="@TimeSpan.FromSeconds(0.3)">
+                                        <Heading Size="HeadingSize.Is2">Protein-rich Turkey Burger</Heading>
+                                    </Animate>
+                                    <Animate Animation="Animations.FadeUp" Delay="@TimeSpan.FromSeconds(0.7)">
+                                        <Paragraph>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tristique nisl vitae luctus sollicitudin. Fusce consectetur sem eget dui tristique, ac posuere arcu varius.</Paragraph>
+                                    </Animate>
+                                    <Animate Animation="Animations.FadeUp" Delay="@TimeSpan.FromSeconds(1)">
+                                        <Button Class="delicious-btn">See Recipe </Button>
+                                    </Animate>
+                                </div>
+                            </Animate>
+                        </Column>
+                    </Row>
+                </Container>
+            </div>
+        </CarouselSlide>
+        <CarouselSlide Name="2">
+            <div class="single-hero-slide bg-img" style="background-image: url(img/bg-img/bg6.jpg);">
+                <Container Class="h-100">
+                    <Row Class="h-100 align-items-center">
+                        <Column ColumnSize="ColumnSize.Is6.OnMobile.Is7.OnTablet.Is9.OnDesktop.Is12">
+                            <div class="hero-slides-content">
+                                <Heading Size="HeadingSize.Is2">Yaki Soba</Heading>
+                                <Paragraph>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tristique nisl vitae luctus sollicitudin. Fusce consectetur sem eget dui tristique, ac posuere arcu varius.</Paragraph>
+                                <Button Class="delicious-btn">See Recipe</Button>
+                            </div>
+                        </Column>
+                    </Row>
+                </Container>
+            </div>
+        </CarouselSlide>
+        <CarouselSlide Name="3">
+            <div class="single-hero-slide bg-img" style="background-image: url(img/bg-img/bg7.jpg);">
+                <Container Class="h-100">
+                    <Row Class="h-100 align-items-center">
+                        <Column ColumnSize="ColumnSize.Is6.OnMobile.Is7.OnTablet.Is9.OnDesktop.Is12">
+                            <div class="hero-slides-content">
+                                <Heading Size="HeadingSize.Is2">Training Shakes like a pro</Heading>
+                                <Paragraph>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tristique nisl vitae luctus sollicitudin. Fusce consectetur sem eget dui tristique, ac posuere arcu varius.</Paragraph>
+                                <Button Class="delicious-btn">See Recipe</Button>
+                            </div>
+                        </Column>
+                    </Row>
+                </Container>
+            </div>
+        </CarouselSlide>
+    </Carousel>
+</section>
